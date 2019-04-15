@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dcamachog1501/Desktop/GBP_Client/Client/Client.h
+iostream
+-
+thread
+-
+
+/home/dcamachog1501/Desktop/GBP_Client/Main/main.cpp
+iostream
+-
+../Client/Client.h
+/home/dcamachog1501/Desktop/GBP_Client/Client/Client.h
+
